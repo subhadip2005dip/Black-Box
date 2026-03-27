@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🚨 Black-Box — AI-Powered Accident Reconstruction System
+=======
+# Hlo Welcome to your Lovable project
+>>>>>>> 0d6c0d5ad8184c9bbf06ef0e8950ff07755fd8f4
 
 > An IoT-based Event Data Recorder (EDR) that automatically detects vehicle accidents, reconstructs them using AI, and sends emergency alerts — powered by ESP32, MPU6050, Neo-6M GPS, FastAPI, MongoDB, and Google Gemini AI.
 
