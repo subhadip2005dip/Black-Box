@@ -1,0 +1,74 @@
+[
+    {
+        "timestamp": "15/03/2026  08:45:00",
+        "latitude": 22.572646,
+        "longitude": 88.363895,
+        "altitude_m": 12.5,
+        "speed_kmph": 65.3,
+        "satellites": 8
+    },
+    {
+        "timestamp": "15/03/2026  08:45:01",
+        "latitude": 22.572700,
+        "longitude": 88.363950,
+        "altitude_m": 12.4,
+        "speed_kmph": 70.1,
+        "satellites": 8
+    },
+    {
+        "timestamp": "15/03/2026  08:45:02",
+        "latitude": 22.572760,
+        "longitude": 88.364010,
+        "altitude_m": 12.3,
+        "speed_kmph": 78.5,
+        "satellites": 8
+    },
+    {
+        "timestamp": "15/03/2026  08:45:03",
+        "latitude": 22.572820,
+        "longitude": 88.364080,
+        "altitude_m": 12.2,
+        "speed_kmph": 85.2,
+        "satellites": 7
+    },
+    {
+        "timestamp": "15/03/2026  08:45:04",
+        "latitude": 22.572860,
+        "longitude": 88.364120,
+        "altitude_m": 12.1,
+        "speed_kmph": 92.7,
+        "satellites": 7
+    },
+    {
+        "timestamp": "15/03/2026  08:45:05",
+        "latitude": 22.572880,
+        "longitude": 88.364140,
+        "altitude_m": 11.8,
+        "speed_kmph": 95.4,
+        "satellites": 6
+    },
+    {
+        "timestamp": "15/03/2026  08:45:06",
+        "latitude": 22.572890,
+        "longitude": 88.364150,
+        "altitude_m": 10.2,
+        "speed_kmph": 45.0,
+        "satellites": 5
+    },
+    {
+        "timestamp": "15/03/2026  08:45:07",
+        "latitude": 22.572895,
+        "longitude": 88.364155,
+        "altitude_m": 8.5,
+        "speed_kmph": 10.0,
+        "satellites": 4
+    },
+    {
+        "timestamp": "15/03/2026  08:45:08",
+        "latitude": 22.572895,
+        "longitude": 88.364155,
+        "altitude_m": 8.5,
+        "speed_kmph": 0.0,
+        "satellites": 4
+    }
+]

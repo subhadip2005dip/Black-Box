@@ -5,15 +5,11 @@ from datetime import datetime
 
 load_dotenv()
 
-# ─────────────────────────────────────────
-# Configure Google Generative AI
-# ─────────────────────────────────────────
+
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 model = genai.GenerativeModel("gemini-2.5-flash")
 
-# ─────────────────────────────────────────
-# Sample GPS Data from BlackBox
-# ─────────────────────────────────────────
+
 def get_blackbox_data():
     return [
         {
@@ -90,9 +86,7 @@ def get_blackbox_data():
         },
     ]
 
-# ─────────────────────────────────────────
-# Format GPS Data for Prompt
-# ─────────────────────────────────────────
+
 def format_gps_data(data):
     formatted = ""
     for i, entry in enumerate(data):
@@ -107,9 +101,7 @@ Reading {i+1}:
 """
     return formatted
 
-# ─────────────────────────────────────────
-# Get GPS coordinates at crash moment
-# ─────────────────────────────────────────
+
 def get_crash_gps(data):                          # Fixed Bug 1
     for entry in data:
         if entry['speed_kmph'] == 0.0:
