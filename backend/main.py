@@ -201,7 +201,22 @@ async def reconstruct_accident(session_id: str):
         "injury_risk":      result["injury_risk"],
         "emergency":        result["emergency"],
         "report":           result["report_text"],
-        "generated_at":     report_doc["generated_at"]
+        "generated_at":     report_doc["generated_at"],
+
+        "confidence"      : result["confidence"],
+        "confidence_pct"  : result["confidence_pct"],
+        "google_maps_link": result["google_maps_link"],
+        "weather_risk"    : result["weather_risk"],
+        "road_type"       : result["road_type"],
+        "confirmed_facts" : result["confirmed_facts"],
+        "unavailable_data": result["unavailable_data"],
+        "legal_note"      : result["legal_note"],
+        "data_sources"    : result["data_sources"],
+        "crash_timestamp" : result["crash_timestamp"],
+        "max_speed_kmph"  : result["max_speed_kmph"],
+        "speed_drop_kmph" : result["speed_drop_kmph"],
+        
+        
     }
 
 
